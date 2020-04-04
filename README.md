@@ -1,3 +1,5 @@
+**This is a fork. See gdraheim/docker-copyedit for the original.**
+
 # edit docker image metadata
 
 The initial motiviation for the creation of the tool came from
@@ -79,5 +81,3 @@ tool will even unpack the archives temporarily. That's why
 the "-t tmpdir" should point to a space that is hopefully big
 enough (like the build server workspace you are already in).
 
-... **I take patches!** 
-... (however please run the `docker-copyedit-tests.py` / `make check` before)
